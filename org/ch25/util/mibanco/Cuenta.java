@@ -6,6 +6,11 @@ import java.util.Random;
 
 import org.ch25.util.Imprimible;
 
+/**
+ * LA clase hace...
+ * @author Noel
+ * @version 1.2
+ */
 public abstract class CuentaCliente implements Imprimible{
 	//Los números de cuenta del banco iniciarán después de 1000
 	private static int consecutivo=1000; 
@@ -28,7 +33,13 @@ public abstract class CuentaCliente implements Imprimible{
     */
 
 
-
+	/**
+	 * Este contructor........
+	 * @param saldo {double} hace....
+	 * @param numeroCliente {String} ....
+	 * @param fechaApertura {Date} hace....
+	 * @param nombreCliente {String} hace.....
+	 */
 	public CuentaCliente(double saldo, String numeroCliente, Date fechaApertura,
 
 													String nombreCliente) {
@@ -43,10 +54,18 @@ public abstract class CuentaCliente implements Imprimible{
 		this.fechaApertura = fechaApertura;
 	}//constructor
 
+	/**
+	 * EL metodo hace....
+	 * @return {int} devuelve......
+	 */
 	private static int getAbs() {
 		return Math.abs(new Random().nextInt());
 	}
 
+	/**
+	 * Descripción del método
+	 * @param saldo {double} hace lo siguiente....
+	 */
 	public CuentaCliente(double saldo) {
 		this.saldo=saldo;
 	}//constructor
