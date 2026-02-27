@@ -2,7 +2,7 @@ package org.ch25.util;
 
 import java.util.Date;
 
-import org.ch25.util.banco.Cuenta;
+import org.ch25.util.mibanco.Cuenta;
 public class ReciboSaldo {
 	
 	public static void Imprimir (Cuenta c){

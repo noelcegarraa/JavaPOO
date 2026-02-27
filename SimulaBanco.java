@@ -1,11 +1,10 @@
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 
 import org.ch25.util.ReciboSaldo;
-import org.ch25.util.banco.Cuenta;
-import org.ch25.util.banco.CuentaCredito;
-import org.ch25.util.banco.CuentaDebito;
+import org.ch25.util.mibanco.Cuenta;
+import org.ch25.util.mibanco.CuentaCredito;
+import org.ch25.util.mibanco.CuentaDebito;
 
 public class SimulaBanco {
 	public static void main(String[] args) {
